@@ -13,7 +13,7 @@ describe('Cancel notification', () => {
     const notification = new Notification({
       category: 'social',
       content: new Content('Nova solicitação de amizade!'),
-      recipientId: 'example-rcipient-id',
+      recipientId: 'example-recipient-id',
     });
 
     await notificationsRepository.create(notification);
